@@ -13,16 +13,16 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\Baekjoon">
-      <UniqueIdentifier>{c44e5082-05c2-48eb-bfce-ef626506c232}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Baekjoon\골드">
-      <UniqueIdentifier>{5a6dfd65-99bf-4b71-85dd-e796383728ae}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="문제집.cpp">
-      <Filter>소스 파일\Baekjoon\골드</Filter>
+    <ClCompile Include="백준\골드\문제집.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="백준\브론즈\오늘날짜.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="백준\실버\방 번호.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
