@@ -5,33 +5,33 @@
 #include <array>
 using namespace std;
 
-void bfs(int** graph, bool** visited, int N, int M) {
+int bfs(int** graph, int N, int M) {
 	// µ¿ ³² ¼­ ºÏ
 	int d_row[] = { 0, 1, 0, -1 };
 	int d_col[] = { 1, 0, -1, 0 };
-	queue<array<int, 2>> queue;
+	queue<pair<int, int>> q;
 	int now_row, now_col;
 	int next_row, next_col;
 	int now_size, max_size;
 	max_size = 0;
 	for (int row = 0; row < N; row++) {
 		for (int col = 0; col < M; col++) {
-			if (graph[row][col] == 1 and !visited[row][col]) {
-				queue.push({row, col});
-				visited[row][col] = true;
+			if (graph[row][col] == 1) {
+				q.push(make_pair(row, col));
+				graph[row][col] = 0;
 				now_size = 0;
-				while (!queue.empty()) {
-					now_row = queue.front()[0];
-					now_col = queue.front()[1];
-					queue.pop();
+				while (!q.empty()) {
+					now_row = q.front().first;
+					now_col = q.front().second;
+					q.pop();
 					now_size++;
 					for (int i = 0; i < 4; i++) {
 						next_row = now_row + d_row[i];
 						next_col = now_col + d_col[i];
-						if (0 <= next_row and next_row < N and 0 <= next_col and next_row < M) {
-							if (graph[next_row][next_col] == 1 and !visited[next_row][next_col]) {
-								queue.push({next_row, next_col});
-								visited[next_row][next_col] = true;
+						if (0 <= next_row and next_row < N and 0 <= next_col and next_col < M) {
+							if (graph[next_row][next_col] == 1) {
+								q.push(make_pair(next_row, next_col));
+								graph[next_row][next_col] = 0;
 							}
 						}
 					}
@@ -41,7 +41,7 @@ void bfs(int** graph, bool** visited, int N, int M) {
 		}
 	}
 
-	cout << max_size;
+	return max_size;
 }
 
 int main(void) {
@@ -52,13 +52,10 @@ int main(void) {
 	cin >> N >> M >> K;
 
 	int** graph;
-	graph = new int*[N];
-	bool** visited;
-	visited = new bool* [N];
+	graph = new int* [N];
 	
-	for (int i = 0; i < M; i++) {
-		graph[i] = new int[M] {0};
-		visited[i] = new bool[M] {false};
+	for (int i = 0; i < N; i++) {
+		graph[i] = new int [M] {0};
 	}
 	int row, col;
 	for (int i = 0; i < K; i++) {
@@ -66,5 +63,7 @@ int main(void) {
 		graph[row - 1][col - 1] = 1;
 	}
 
-	bfs(graph, visited, N, M);
+	cout << bfs(graph, N, M);
+	
+	delete[] graph;
 }
