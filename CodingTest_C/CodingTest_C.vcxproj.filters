@@ -81,5 +81,8 @@
     <ClCompile Include="백준\골드\로봇 청소기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="백준\브론즈\전자레인지.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
