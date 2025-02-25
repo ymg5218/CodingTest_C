@@ -49,7 +49,10 @@
     <ClCompile Include="백준\골드\약수의 합.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="백준\골드\최소 스패닝 트리.cpp" />
+    <ClCompile Include="백준\골드\인구 이동.cpp" />
+    <ClCompile Include="백준\골드\최소 스패닝 트리.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="백준\골드\테트로미노.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
