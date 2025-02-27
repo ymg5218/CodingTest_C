@@ -138,5 +138,8 @@
     <ClCompile Include="백준\골드\구간 합 구하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="백준\골드\공유기 설치.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
