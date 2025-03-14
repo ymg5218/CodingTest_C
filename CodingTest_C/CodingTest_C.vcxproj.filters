@@ -162,5 +162,11 @@
     <ClCompile Include="백준\골드\도시 분할 계획.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="백준\골드\별자리 만들기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="백준\브론즈\대소문자 바꾸기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
