@@ -38,7 +38,7 @@ double Kruscal() {
 	int v1, v2;
 	double cost;
 	while (MSTEdgeCnt < n - 1) {
-		if (FindParent(pq.top().second.first == FindParent(pq.top().second.second))){
+		if (FindParent(pq.top().second.first) == FindParent(pq.top().second.second)){
 			pq.pop();
 		}
 		else {
