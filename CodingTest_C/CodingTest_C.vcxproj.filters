@@ -115,9 +115,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="백준\브론즈\거스름돈.cpp">
+<<<<<<< HEAD
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="백준\골드\전력난.cpp">
+=======
+>>>>>>> f417c3fa6f0e8db85748c460959a4a3ec168a13c
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
