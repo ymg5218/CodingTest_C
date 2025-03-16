@@ -38,7 +38,13 @@
 =======
     <ClCompile Include="백준\골드\별자리 만들기.cpp">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="백준\골드\수 묶기.cpp">
+>>>>>>> parent of 941d840 (25/03/15)
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="백준\골드\수 묶기.cpp">
@@ -67,9 +73,13 @@
     </ClCompile>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="백준\브론즈\거스름돈.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+=======
+    <ClCompile Include="백준\브론즈\대소문자 바꾸기.cpp" />
+>>>>>>> parent of 941d840 (25/03/15)
 =======
     <ClCompile Include="백준\브론즈\대소문자 바꾸기.cpp" />
 >>>>>>> parent of 941d840 (25/03/15)
