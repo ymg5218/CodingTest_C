@@ -115,6 +115,7 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="백준\브론즈\거스름돈.cpp">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -227,6 +228,8 @@
 >>>>>>> parent of 133738f (25/03/14)
       <Filter>소스 파일</Filter>
     </ClCompile>
+=======
+>>>>>>> parent of 4c0108f (25/03/16)
 =======
 >>>>>>> parent of 4c0108f (25/03/16)
   </ItemGroup>

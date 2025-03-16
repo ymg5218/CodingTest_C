@@ -129,6 +129,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 764a565 (Revert "25/03/16")
     <ClCompile Include="백준\브론즈\거스름돈.cpp">
@@ -148,6 +149,8 @@
 >>>>>>> parent of 941d840 (25/03/15)
 =======
 >>>>>>> parent of 133738f (25/03/14)
+=======
+>>>>>>> parent of 4c0108f (25/03/16)
 =======
 >>>>>>> parent of 4c0108f (25/03/16)
     <ClCompile Include="백준\브론즈\모음의 개수.cpp">
@@ -190,6 +193,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="백준\실버\개미.cpp" />
 =======
 <<<<<<< HEAD
@@ -208,6 +212,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
 >>>>>>> parent of 764a565 (Revert "25/03/16")
+=======
+    <ClCompile Include="백준\실버\개미.cpp" />
+>>>>>>> parent of 4c0108f (25/03/16)
     <ClCompile Include="백준\실버\경로 찾기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
