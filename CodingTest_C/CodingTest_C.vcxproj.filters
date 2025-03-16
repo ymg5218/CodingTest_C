@@ -177,6 +177,7 @@
     <ClCompile Include="백준\골드\도시 분할 계획.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="백준\골드\별자리 만들기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -232,5 +233,7 @@
 >>>>>>> parent of 4c0108f (25/03/16)
 =======
 >>>>>>> parent of 4c0108f (25/03/16)
+=======
+>>>>>>> parent of 133738f (25/03/14)
   </ItemGroup>
 </Project>
