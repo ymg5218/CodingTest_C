@@ -114,62 +114,10 @@
     <ClCompile Include="백준\실버\개미.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-<<<<<<< HEAD
     <ClCompile Include="백준\브론즈\거스름돈.cpp">
-=======
-    <ClCompile Include="백준\실버\ATM.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="백준\실버\큐 2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준\브론즈\별 찍기 - 8.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준\골드\동전 2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준\골드\아기 상어.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준\골드\최소 스패닝 트리.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준\골드\인구 이동.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준\골드\구간 합 구하기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준\골드\공유기 설치.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준\골드\집합의 표현.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준\실버\나이트의 이동.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준\골드\전화번호 목록.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준\골드\네트워크 연결.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준\실버\N과 M 2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준\실버\N과 M 4.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준\골드\도시 분할 계획.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준\골드\별자리 만들기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="백준\브론즈\대소문자 바꾸기.cpp">
->>>>>>> 941d840680d0eb21da4ab288d403fe278e1890b1
+    <ClCompile Include="백준\골드\전력난.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
