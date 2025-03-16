@@ -85,6 +85,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="백준\브론즈\거스름돈.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -99,6 +100,8 @@
 >>>>>>> parent of 941d840 (25/03/15)
 =======
 >>>>>>> parent of 133738f (25/03/14)
+=======
+>>>>>>> parent of 4c0108f (25/03/16)
     <ClCompile Include="백준\브론즈\모음의 개수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -135,9 +138,7 @@
     <ClCompile Include="백준\실버\2차원 배열의 합.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="백준\실버\개미.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="백준\실버\개미.cpp" />
     <ClCompile Include="백준\실버\경로 찾기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
