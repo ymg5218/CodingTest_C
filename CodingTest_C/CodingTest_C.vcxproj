@@ -22,6 +22,13 @@
     <ClCompile Include="백준\골드\녹색 옷 입은 애가 젤다지.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+<<<<<<< HEAD
+=======
+    <ClCompile Include="백준\골드\도시 분할 계획.cpp" />
+    <ClCompile Include="백준\골드\동전 2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+>>>>>>> parent of 133738f (25/03/14)
     <ClCompile Include="백준\골드\미로만들기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -35,6 +42,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <ClCompile Include="백준\골드\별자리 만들기.cpp">
 <<<<<<< HEAD
@@ -43,6 +51,8 @@
 =======
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+=======
+>>>>>>> parent of 133738f (25/03/14)
     <ClCompile Include="백준\골드\수 묶기.cpp">
 >>>>>>> parent of 941d840 (25/03/15)
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -74,6 +84,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClCompile Include="백준\브론즈\거스름돈.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -86,6 +97,8 @@
 =======
     <ClCompile Include="백준\브론즈\대소문자 바꾸기.cpp" />
 >>>>>>> parent of 941d840 (25/03/15)
+=======
+>>>>>>> parent of 133738f (25/03/14)
     <ClCompile Include="백준\브론즈\모음의 개수.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
