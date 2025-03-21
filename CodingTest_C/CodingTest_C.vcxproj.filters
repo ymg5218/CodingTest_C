@@ -56,5 +56,6 @@
     <ClCompile Include="백준\실버\최대 힙.cpp" />
     <ClCompile Include="백준\실버\큐 2.cpp" />
     <ClCompile Include="백준\골드\이분 그래프.cpp" />
+    <ClCompile Include="백준\골드\가운데를 말해요.cpp" />
   </ItemGroup>
 </Project>
