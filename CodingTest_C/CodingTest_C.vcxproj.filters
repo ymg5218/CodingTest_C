@@ -59,5 +59,6 @@
     <ClCompile Include="백준\골드\가운데를 말해요.cpp" />
     <ClCompile Include="백준\실버\패션왕 신해빈.cpp" />
     <ClCompile Include="백준\실버\대칭 차집합.cpp" />
+    <ClCompile Include="백준\실버\회사에 있는 사람.cpp" />
   </ItemGroup>
 </Project>
