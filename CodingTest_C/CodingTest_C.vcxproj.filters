@@ -60,5 +60,6 @@
     <ClCompile Include="백준\실버\패션왕 신해빈.cpp" />
     <ClCompile Include="백준\실버\대칭 차집합.cpp" />
     <ClCompile Include="백준\실버\비밀번호 찾기.cpp" />
+    <ClCompile Include="백준\실버\서로 다른 부분 문자열의 개수.cpp" />
   </ItemGroup>
 </Project>
