@@ -70,6 +70,9 @@
     <ClCompile Include="백준\골드\역원_Inverse_구하기.cpp" />
     <ClCompile Include="백준\골드\최솟값.cpp" />
     <ClCompile Include="백준\실버\소수 구하기.cpp" />
+    <ClCompile Include="백준\골드\나무 위의 구슬.cpp" />
+    <ClCompile Include="백준\브론즈\크냐.cpp" />
+    <ClCompile Include="백준\실버\구간 합 구하기 4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
