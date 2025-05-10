@@ -76,6 +76,7 @@
     <ClCompile Include="백준\플래티넘\Suffix Array.cpp" />
     <ClCompile Include="백준\플래티넘\가장 긴 문자열.cpp" />
     <ClCompile Include="백준\플래티넘\반복 부분문자열.cpp" />
+    <ClCompile Include="백준\실버\도영이가 만든 맛있는 음식.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />

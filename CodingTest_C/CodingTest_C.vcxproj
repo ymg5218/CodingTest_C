@@ -187,6 +187,7 @@
     <ClCompile Include="백준\실버\대칭 차집합.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="백준\실버\도영이가 만든 맛있는 음식.cpp" />
     <ClCompile Include="백준\실버\랜선 자르기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
