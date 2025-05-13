@@ -80,6 +80,7 @@
     <ClCompile Include="백준\골드\부분합.cpp" />
     <ClCompile Include="백준\실버\로프.cpp" />
     <ClCompile Include="백준\브론즈\일곱 난쟁이.cpp" />
+    <ClCompile Include="백준\플래티넘\Strongly Connected Component.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
