@@ -77,6 +77,9 @@
     <ClCompile Include="백준\플래티넘\가장 긴 문자열.cpp" />
     <ClCompile Include="백준\플래티넘\반복 부분문자열.cpp" />
     <ClCompile Include="백준\실버\도영이가 만든 맛있는 음식.cpp" />
+    <ClCompile Include="백준\골드\부분합.cpp" />
+    <ClCompile Include="백준\실버\로프.cpp" />
+    <ClCompile Include="백준\브론즈\일곱 난쟁이.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
