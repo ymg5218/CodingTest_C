@@ -81,6 +81,7 @@
     <ClCompile Include="백준\실버\로프.cpp" />
     <ClCompile Include="백준\브론즈\일곱 난쟁이.cpp" />
     <ClCompile Include="백준\플래티넘\Strongly Connected Component.cpp" />
+    <ClCompile Include="백준\골드\타임머신.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
