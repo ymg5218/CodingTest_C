@@ -83,6 +83,7 @@
     <ClCompile Include="백준\플래티넘\Strongly Connected Component.cpp" />
     <ClCompile Include="백준\골드\타임머신.cpp" />
     <ClCompile Include="백준\골드\Traveling SCCC President.cpp" />
+    <ClCompile Include="백준\골드\여행 가자.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
