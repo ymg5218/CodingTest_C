@@ -84,7 +84,12 @@
     <ClCompile Include="백준\골드\타임머신.cpp" />
     <ClCompile Include="백준\골드\Traveling SCCC President.cpp" />
     <ClCompile Include="백준\골드\여행 가자.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="백준\골드\K번째 수.cpp" />
+=======
+    <ClCompile Include="백준\골드\트리의 지름.cpp" />
+    <ClCompile Include="백준\골드\해킹.cpp" />
+>>>>>>> 0a39f5a8f4f4d18ed99bc6c661e8e91f5a6bdbf8
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
