@@ -11,7 +11,6 @@ int main(void) {
 	cin >> N >> K;
 	ll int left = 1;
 	ll int right = N * N;
-	ll int res = 0;
 	while (left <= right) {
 		ll int mid = (left + right) / 2;
 		ll int cnt = 0;
@@ -19,7 +18,6 @@ int main(void) {
 			cnt += min(N, mid / i);
 		}
 		if (cnt >= K) {
-			res = mid;
 			right = mid - 1;
 		}
 		else {
@@ -27,5 +25,5 @@ int main(void) {
 		}
 	}
 	
-	cout << res << endl;
+	cout << left << endl;
 }

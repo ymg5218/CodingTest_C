@@ -271,6 +271,7 @@
     <ClCompile Include="백준\플래티넘\반복 부분문자열.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="백준\플래티넘\이진 검색 트리.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
