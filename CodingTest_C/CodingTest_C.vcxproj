@@ -184,6 +184,9 @@
     <ClCompile Include="백준\실버\ATM.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="백준\실버\동전 0.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="백준\실버\로프.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -271,7 +274,10 @@
     <ClCompile Include="백준\플래티넘\반복 부분문자열.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="백준\플래티넘\이진 검색 트리.cpp" />
+    <ClCompile Include="백준\플래티넘\백조의 호수.cpp" />
+    <ClCompile Include="백준\플래티넘\이진 검색 트리.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
