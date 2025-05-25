@@ -88,6 +88,7 @@
     <ClCompile Include="백준\플래티넘\이진 검색 트리.cpp" />
     <ClCompile Include="백준\실버\동전 0.cpp" />
     <ClCompile Include="백준\플래티넘\백조의 호수.cpp" />
+    <ClCompile Include="백준\골드\LCA.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
