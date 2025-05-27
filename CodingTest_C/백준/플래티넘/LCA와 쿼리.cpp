@@ -1,4 +1,4 @@
-// 11438
+// 15480
 
 #include <iostream>
 #include <vector>
@@ -48,7 +48,7 @@ void set_parent() {
 }
 
 
-void LCA(int x, int y) {
+int LCA(int x, int y) {
 	if (height[x] != height[y]) {
 		if (height[x] < height[y])
 			swap(x, y);
@@ -74,7 +74,7 @@ void LCA(int x, int y) {
 		}
 		x = parent[x][0];
 	}
-	cout << x << endl;
+	return x;
 }
 
 int main(void) {
@@ -95,8 +95,17 @@ int main(void) {
 
 	cin >> M;
 	for (int i = 0; i < M; i++) {
-		int x, y;
-		cin >> x >> y;
-		LCA(x, y);
+		int r, x, y;
+		cin >> r >> x >> y;
+
+
+		int a = LCA(x, y);
+		int b = LCA(x, r);
+		int c = LCA(y, r);
+		int res = a;
+
+		if (height[b] > height[res]) res = b;
+		if (height[c] > height[res]) res = c;
+		cout << res << endl;
 	}
 }
