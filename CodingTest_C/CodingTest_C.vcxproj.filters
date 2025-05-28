@@ -89,6 +89,11 @@
     <ClCompile Include="백준\실버\동전 0.cpp" />
     <ClCompile Include="백준\플래티넘\백조의 호수.cpp" />
     <ClCompile Include="백준\골드\LCA.cpp" />
+    <ClCompile Include="백준\플래티넘\LCA2.cpp" />
+    <ClCompile Include="백준\플래티넘\LCA와 쿼리.cpp" />
+    <ClCompile Include="백준\브론즈\인경호 울타리 공사.cpp" />
+    <ClCompile Include="백준\브론즈\신묘마루의 요술망치.cpp" />
+    <ClCompile Include="백준\플래티넘\문자열과 쿼리.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
