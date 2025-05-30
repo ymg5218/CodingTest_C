@@ -96,7 +96,7 @@
     <ClCompile Include="백준\플래티넘\문자열과 쿼리.cpp" />
     <ClCompile Include="백준\플래티넘\LCS 4.cpp" />
     <ClCompile Include="백준\골드\공통 부분 문자열.cpp" />
-    <ClCompile Include="백준\골드\다각형의 면적.cpp" />
+    <ClCompile Include="백준\골드\용액.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
