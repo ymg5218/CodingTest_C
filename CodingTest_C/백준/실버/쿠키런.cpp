@@ -29,7 +29,7 @@ int main() {
         }
     }
 
-    // 2. "^^." (슬라이드 우선)
+    // 2. "vv." (슬라이드 우선)
     for (int i = 0; i < N; i++) {
         if (!handled[i] && track[i] == "vv." && S > 0) {
             S--;
