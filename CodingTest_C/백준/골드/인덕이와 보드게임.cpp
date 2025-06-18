@@ -3,8 +3,6 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <queue>
-#include <limits>
 #define endl "\n"
 #define ll long long
 
@@ -18,9 +16,6 @@ vector<vector<pair<ll, ll>>> score;
 int N, M;
 
 void solution() {
-
-	queue<pair<int, int>> q;
-	q.push({ 0, 0 });
 	score[0][0] = { board[0][0], board[0][0] };
 
 	for (int row = 0; row < N; row++) {
@@ -45,8 +40,8 @@ void solution() {
 					score[row][col].second = max(-1 * (score[row - 1][col].first + board[row][col]), -1 * (score[row][col - 1].first + board[row][col]));
 				}
 				else {
-					score[row][col].first = min(score[row - 1][col].first + board[row][col], score[row][col - 1].first + board[row][col]);
-					score[row][col].second = max(score[row - 1][col].second + board[row][col], score[row][col - 1].second + board[row][col]);
+					score[row][col].first = min(score[row - 1][col].first, score[row][col - 1].first) + + board[row][col];
+					score[row][col].second = max(score[row - 1][col].second, score[row][col - 1].second) + board[row][col];
 				}
 			}
 		}
