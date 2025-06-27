@@ -97,6 +97,13 @@
     <ClCompile Include="백준\플래티넘\LCS 4.cpp" />
     <ClCompile Include="백준\골드\공통 부분 문자열.cpp" />
     <ClCompile Include="백준\골드\용액.cpp" />
+    <ClCompile Include="백준\골드\내리막 길.cpp" />
+    <ClCompile Include="백준\골드\인덕이와 보드게임.cpp" />
+    <ClCompile Include="백준\실버\스택 2.cpp" />
+    <ClCompile Include="백준\실버\에라토스테네스의 체.cpp" />
+    <ClCompile Include="백준\실버\주유소.cpp" />
+    <ClCompile Include="백준\실버\쿠키런.cpp" />
+    <ClCompile Include="백준\플래티넘\Ignition.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
