@@ -105,6 +105,8 @@
     <ClCompile Include="백준\실버\쿠키런.cpp" />
     <ClCompile Include="백준\플래티넘\Ignition.cpp" />
     <ClCompile Include="백준\실버\수열 Easy.cpp" />
+    <ClCompile Include="백준\골드\두 용액.cpp" />
+    <ClCompile Include="백준\골드\세 용액.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
