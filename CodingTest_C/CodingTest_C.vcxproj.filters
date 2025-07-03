@@ -107,6 +107,8 @@
     <ClCompile Include="백준\실버\수열 Easy.cpp" />
     <ClCompile Include="백준\골드\두 용액.cpp" />
     <ClCompile Include="백준\골드\세 용액.cpp" />
+    <ClCompile Include="백준\실버\파도반 수열.cpp" />
+    <ClCompile Include="백준\실버\2xn 타일링 2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
