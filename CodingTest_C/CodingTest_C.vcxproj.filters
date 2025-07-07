@@ -111,6 +111,9 @@
     <ClCompile Include="백준\실버\2xn 타일링 2.cpp" />
     <ClCompile Include="백준\골드\호석이 두 마리 치킨.cpp" />
     <ClCompile Include="백준\골드\2048 easy.cpp" />
+    <ClCompile Include="백준\골드\CCW.cpp" />
+    <ClCompile Include="백준\골드\선분교차 1-2.cpp" />
+    <ClCompile Include="백준\골드\팰린드롬 10942.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
