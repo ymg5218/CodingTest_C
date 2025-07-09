@@ -114,6 +114,8 @@
     <ClCompile Include="백준\골드\CCW.cpp" />
     <ClCompile Include="백준\골드\선분교차 1-2.cpp" />
     <ClCompile Include="백준\골드\팰린드롬 10942.cpp" />
+    <ClCompile Include="백준\플래티넘\블록 껍질.cpp" />
+    <ClCompile Include="백준\골드\빙산.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
