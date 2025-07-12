@@ -116,6 +116,9 @@
     <ClCompile Include="백준\골드\팰린드롬 10942.cpp" />
     <ClCompile Include="백준\플래티넘\블록 껍질.cpp" />
     <ClCompile Include="백준\골드\빙산.cpp" />
+    <ClCompile Include="백준\골드\앱.cpp" />
+    <ClCompile Include="백준\골드\제곱ㄴㄴ수.cpp" />
+    <ClCompile Include="백준\골드\파이프 옮기기 1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
