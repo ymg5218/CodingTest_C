@@ -122,6 +122,10 @@
     <ClCompile Include="백준\골드\괄호의 값.cpp" />
     <ClCompile Include="백준\브론즈\Hashing.cpp" />
     <ClCompile Include="백준\골드\구간 성분.cpp" />
+    <ClCompile Include="백준\골드\최솟값과 최댓값.cpp" />
+    <ClCompile Include="백준\골드\노드사이의 거리.cpp" />
+    <ClCompile Include="백준\골드\보석 도둑.cpp" />
+    <ClCompile Include="백준\골드\중앙값 구하기.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
