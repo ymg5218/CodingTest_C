@@ -126,6 +126,9 @@
     <ClCompile Include="백준\골드\노드사이의 거리.cpp" />
     <ClCompile Include="백준\골드\보석 도둑.cpp" />
     <ClCompile Include="백준\골드\중앙값 구하기.cpp" />
+    <ClCompile Include="백준\골드\A와 B.cpp" />
+    <ClCompile Include="백준\실버\한 수.cpp" />
+    <ClCompile Include="백준\브론즈\분산처리.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
