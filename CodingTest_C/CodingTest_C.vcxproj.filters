@@ -129,6 +129,29 @@
     <ClCompile Include="백준\골드\A와 B.cpp" />
     <ClCompile Include="백준\실버\한 수.cpp" />
     <ClCompile Include="백준\브론즈\분산처리.cpp" />
+    <ClCompile Include="백준\골드\가장 가까운 공통 조상.cpp" />
+    <ClCompile Include="백준\실버\퇴사.cpp" />
+    <ClCompile Include="백준\실버\The Big Dance.cpp" />
+    <ClCompile Include="백준\골드\해밍 경로.cpp" />
+    <ClCompile Include="백준\실버\결혼식.cpp" />
+    <ClCompile Include="백준\골드\뱀과 사다리 게임.cpp" />
+    <ClCompile Include="백준\골드\개똥벌레.cpp" />
+    <ClCompile Include="프로그래머스\LV2\가장 큰 수.cpp" />
+    <ClCompile Include="프로그래머스\LV1\모의고사.cpp" />
+    <ClCompile Include="백준\플래티넘\큰 수 만들기.cpp" />
+    <ClCompile Include="백준\골드\큰 수 만들기.cpp" />
+    <ClCompile Include="백준\실버\카드 1.cpp" />
+    <ClCompile Include="백준\브론즈\학점계산.cpp" />
+    <ClCompile Include="백준\브론즈\약수.cpp" />
+    <ClCompile Include="프로그래머스\LV3\입국심사.cpp" />
+    <ClCompile Include="백준\실버\Park.cpp" />
+    <ClCompile Include="백준\실버\1_2_3 더하기 3.cpp" />
+    <ClCompile Include="백준\브론즈\강당 대관.cpp" />
+    <ClCompile Include="백준\골드\줄세우기.cpp" />
+    <ClCompile Include="프로그래머스\LV2\피로도.cpp" />
+    <ClCompile Include="백준\골드\가장 긴 바이토닉 부분 수열.cpp" />
+    <ClCompile Include="프로그래머스\LV3\순위.cpp" />
+    <ClCompile Include="프로그래머스\LV2\다음 큰 숫자.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
