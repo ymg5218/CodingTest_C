@@ -29,7 +29,7 @@ void dijkstra(vector<vector<pair<int, int>>> network, int start_v) {
 			}
 		}
 	}
-	
+
 	int max_dis = -1;
 
 	for (auto& d : distance) {

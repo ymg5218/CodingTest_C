@@ -35,7 +35,7 @@ int main(void) {
 	cin >> N;
 	graph.resize(N + 1);
 	visited.resize(N + 1);
-	
+
 	for (int i = 0; i < N; i++) {
 		int v;
 		cin >> v;
@@ -47,7 +47,7 @@ int main(void) {
 			graph[v].push_back({ u, w });
 		}
 	}
-	
+
 	visited[1] = true;
 	dfs(1, 0);
 	visited = vector<bool>(N + 1, false);
