@@ -152,6 +152,10 @@
     <ClCompile Include="백준\골드\가장 긴 바이토닉 부분 수열.cpp" />
     <ClCompile Include="프로그래머스\LV3\순위.cpp" />
     <ClCompile Include="프로그래머스\LV2\다음 큰 숫자.cpp" />
+    <ClCompile Include="백준\브론즈\최소공배수.cpp" />
+    <ClCompile Include="백준\브론즈\최대공약수와 최소공배수.cpp" />
+    <ClCompile Include="프로그래머스\LV2\할인행사.cpp" />
+    <ClCompile Include="프로그래머스\LV2\할인 행사.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
