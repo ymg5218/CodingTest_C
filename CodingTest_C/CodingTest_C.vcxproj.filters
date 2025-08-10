@@ -154,8 +154,11 @@
     <ClCompile Include="프로그래머스\LV2\다음 큰 숫자.cpp" />
     <ClCompile Include="백준\브론즈\최소공배수.cpp" />
     <ClCompile Include="백준\브론즈\최대공약수와 최소공배수.cpp" />
-    <ClCompile Include="프로그래머스\LV2\할인행사.cpp" />
     <ClCompile Include="프로그래머스\LV2\할인 행사.cpp" />
+    <ClCompile Include="백준\골드\다각형의 면적.cpp" />
+    <ClCompile Include="백준\골드\트리의 지름.cpp" />
+    <ClCompile Include="백준\골드\해킹.cpp" />
+    <ClCompile Include="백준\골드\나머지 합.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
