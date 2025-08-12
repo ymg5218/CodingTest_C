@@ -159,6 +159,8 @@
     <ClCompile Include="백준\골드\트리의 지름.cpp" />
     <ClCompile Include="백준\골드\해킹.cpp" />
     <ClCompile Include="백준\골드\나머지 합.cpp" />
+    <ClCompile Include="백준\골드\호텔.cpp" />
+    <ClCompile Include="백준\플래티넘\교수님은 기다리지 않는다.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
