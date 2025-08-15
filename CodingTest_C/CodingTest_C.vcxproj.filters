@@ -159,6 +159,7 @@
     <ClCompile Include="백준\골드\트리의 지름.cpp" />
     <ClCompile Include="백준\골드\해킹.cpp" />
     <ClCompile Include="백준\골드\나머지 합.cpp" />
+    <ClCompile Include="백준\브론즈\윷놀이.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
