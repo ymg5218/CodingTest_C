@@ -1,71 +1,77 @@
 // 1707
 
 #include <iostream>
-#include <queue>
 #include <vector>
-#define endl '\n'
+#include <queue>
+#define endl "\n"
+#define FAST_IO cin.tie(0); cout.tie(0); ios::sync_with_stdio(false)
+#define UNDEFINED -1
+#define RED 0
+#define BLACK 1
 
 using namespace std;
 
+struct color {
+	int c;
+};
+
+vector<vector<int>> graph_init(int V, int E) {
+	vector<vector<int>> graph(V + 1);
+	for (int i = 0; i < E; i++) {
+		int u, v;
+		cin >> u >> v;
+		graph[u].push_back(v);
+		graph[v].push_back(u);
+	}
+	return graph;
+}
+
+vector<color> vertex_init(int V) {
+	vector<color> vertex_color(V + 1, { UNDEFINED });
+	return vertex_color;
+}
+
+bool bfs(const vector<vector<int>>& graph, vector<color>& vertex_color, int start_v) {
+	queue<int> q;
+	vertex_color[start_v].c = RED;
+	q.push(start_v);
+	
+	while (!q.empty()) {
+		int now_v = q.front();
+		int now_color = vertex_color[now_v].c;
+		q.pop();
+		for (auto& next_v : graph[now_v]) {
+			if (vertex_color[next_v].c == vertex_color[now_v].c) return false;
+			else if (vertex_color[next_v].c == UNDEFINED) {
+				q.push(next_v);
+				vertex_color[next_v].c = vertex_color[now_v].c == RED ? BLACK : RED;
+			}
+		}
+	}
+	return true;
+}
+
+bool solution() {
+	int V, E;
+	cin >> V >> E;
+	auto graph = graph_init(V, E);
+	auto vertex_color = vertex_init(V);
+	
+	for (int i = 1; i <= V; i++) {
+		if (vertex_color[i].c != UNDEFINED) continue;
+		bool is_bigraph = bfs(graph, vertex_color, i);
+		if (!is_bigraph) return false;
+	}
+	return true;
+}
+
 int main(void) {
-    cin.tie(NULL);
-    cout.tie(NULL);
-    cin.sync_with_stdio(false);
-
-    int K, V, E;
-    cin >> K;
-
-    while (K--) {
-        int* visited = new int[20001] {0, };  // 방문 여부와 색깔을 저장
-        vector<int>* graph = new vector<int>[20001];
-        queue<int> q;
-        int u, v;
-        cin >> V >> E;
-
-        // 그래프 입력
-        for (int i = 0; i < E; i++) {
-            cin >> u >> v;
-            graph[u].push_back(v);
-            graph[v].push_back(u);
-        }
-
-        bool result = true;  // 결과 변수
-        // 모든 정점에 대해 검사
-        for (int i = 1; i <= V; i++) {
-            if (visited[i] == 0) {  // 아직 방문하지 않은 정점에 대해 BFS 시작
-                q.push(i);
-                visited[i] = 1;  // 처음 시작할 때 색 1(RED)
-
-                while (!q.empty()) {
-                    int now_v = q.front();
-                    q.pop();
-
-                    // 현재 색과 반대 색으로 이웃 정점 색 지정
-                    for (int j = 0; j < graph[now_v].size(); j++) {
-                        int next_v = graph[now_v][j];
-                        if (visited[next_v] == 0) {  // 아직 방문하지 않은 정점
-                            visited[next_v] = (visited[now_v] == 1) ? 2 : 1;  // 색 반전
-                            q.push(next_v);
-                        }
-                        else if (visited[now_v] == visited[next_v]) {  // 색이 같으면 이분 그래프 아님
-                            result = false;
-                            break;
-                        }
-                    }
-
-                    if (!result) break;
-                }
-            }
-
-            if (!result) break;
-        }
-
-        if (result) cout << "YES" << endl;
-        else cout << "NO" << endl;
-
-        delete[] visited;
-        delete[] graph;
-    }
-
-    return 0;
+	FAST_IO;
+	
+	int T;
+	cin >> T;
+	while (T--) {
+		if (solution()) cout << "YES" << endl;
+		else cout << "NO" << endl;
+	}
 }
