@@ -162,6 +162,7 @@
     <ClCompile Include="백준\브론즈\윷놀이.cpp" />
     <ClCompile Include="프로그래머스\LV2\더 맵게.cpp" />
     <ClCompile Include="프로그래머스\LV3\가장 먼 노드.cpp" />
+    <ClCompile Include="백준\브론즈\뒤집힌 덧셈.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
