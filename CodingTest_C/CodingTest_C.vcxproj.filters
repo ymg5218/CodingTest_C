@@ -161,6 +161,9 @@
     <ClCompile Include="백준\골드\나머지 합.cpp" />
     <ClCompile Include="백준\골드\호텔.cpp" />
     <ClCompile Include="백준\플래티넘\교수님은 기다리지 않는다.cpp" />
+    <ClCompile Include="백준\골드\회장뽑기.cpp" />
+    <ClCompile Include="백준\브론즈\포인터 공부.cpp" />
+    <ClCompile Include="백준\골드\게임 개발.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
