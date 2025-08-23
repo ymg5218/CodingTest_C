@@ -164,6 +164,13 @@
     <ClCompile Include="백준\골드\회장뽑기.cpp" />
     <ClCompile Include="백준\브론즈\포인터 공부.cpp" />
     <ClCompile Include="백준\골드\게임 개발.cpp" />
+    <ClCompile Include="프로그래머스\LV3\여행경로.cpp" />
+    <ClCompile Include="프로그래머스\LV3\가장 먼 노드.cpp" />
+    <ClCompile Include="프로그래머스\LV2\게임 맵 최단거리.cpp" />
+    <ClCompile Include="프로그래머스\LV2\더 맵게.cpp" />
+    <ClCompile Include="프로그래머스\LV2\모음사전.cpp" />
+    <ClCompile Include="백준\골드\중량제한.cpp" />
+    <ClCompile Include="백준\실버\부동산 다툼.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
