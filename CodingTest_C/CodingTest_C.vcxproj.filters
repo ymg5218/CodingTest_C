@@ -164,6 +164,10 @@
     <ClCompile Include="프로그래머스\LV3\가장 먼 노드.cpp" />
     <ClCompile Include="백준\브론즈\뒤집힌 덧셈.cpp" />
     <ClCompile Include="백준\실버\아무래도이문제는A번난이도인것같다.cpp" />
+    <ClCompile Include="프로그래머스\LV2\모음사전.cpp" />
+    <ClCompile Include="프로그래머스\LV2\게임 맵 최단거리.cpp" />
+    <ClCompile Include="백준\골드\중량제한.cpp" />
+    <ClCompile Include="프로그래머스\LV3\여행경로.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
