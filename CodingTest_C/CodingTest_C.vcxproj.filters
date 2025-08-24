@@ -168,6 +168,7 @@
     <ClCompile Include="프로그래머스\LV2\게임 맵 최단거리.cpp" />
     <ClCompile Include="백준\골드\중량제한.cpp" />
     <ClCompile Include="프로그래머스\LV3\여행경로.cpp" />
+    <ClCompile Include="백준\실버\30.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
