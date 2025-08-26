@@ -171,6 +171,8 @@
     <ClCompile Include="프로그래머스\LV2\모음사전.cpp" />
     <ClCompile Include="백준\골드\중량제한.cpp" />
     <ClCompile Include="백준\실버\부동산 다툼.cpp" />
+    <ClCompile Include="백준\골드\케이크 자르기.cpp" />
+    <ClCompile Include="백준\브론즈\점수계산.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
