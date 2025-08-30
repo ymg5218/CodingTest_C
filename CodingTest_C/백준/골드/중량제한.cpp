@@ -16,14 +16,22 @@ vector<ll> max_weight;
 
 void dijkstra(int v1, int v2) {
     priority_queue<pair<ll, int>> pq;
+<<<<<<< HEAD
     max_weight[v1] = INF; 
+=======
+    max_weight[v1] = INF;
+>>>>>>> dca016cacaf980c44063ad3079e0a02f665da7a4
     pq.push({ INF, v1 });
 
     while (!pq.empty()) {
         auto [now_w, now_v] = pq.top();
         pq.pop();
 
+<<<<<<< HEAD
         if (now_v == v2) { 
+=======
+        if (now_v == v2) {
+>>>>>>> dca016cacaf980c44063ad3079e0a02f665da7a4
             cout << now_w << endl;
             return;
         }

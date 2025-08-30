@@ -16,7 +16,11 @@ int solution(vector<int> scoville, int K) {
 		pq.push(s);
 	}
 
+<<<<<<< HEAD
 	while (pq.top() <  K) {
+=======
+	while (pq.top() < K) {
+>>>>>>> dca016cacaf980c44063ad3079e0a02f665da7a4
 		if (cnt <= 1)
 			return -1;
 

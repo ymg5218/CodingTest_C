@@ -6,7 +6,11 @@ using namespace std;
 
 int now_rank;
 int target_rank;
+<<<<<<< HEAD
 vector<char> c{ 'A', 'E', 'I','O', 'U'};
+=======
+vector<char> c{ 'A', 'E', 'I','O', 'U' };
+>>>>>>> dca016cacaf980c44063ad3079e0a02f665da7a4
 
 void dfs(string now_word, string target) {
 	now_rank++;
@@ -18,9 +22,15 @@ void dfs(string now_word, string target) {
 
 	if (now_word.size() >= 5) return;
 
+<<<<<<< HEAD
 	for (int i = 0; i < 5; i++) 
 		dfs(now_word + c[i], target);
 	
+=======
+	for (int i = 0; i < 5; i++)
+		dfs(now_word + c[i], target);
+
+>>>>>>> dca016cacaf980c44063ad3079e0a02f665da7a4
 }
 
 int solution(string word) {

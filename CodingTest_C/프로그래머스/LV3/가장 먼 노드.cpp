@@ -33,7 +33,11 @@ int bfs(int n, vector<vector<int>> graph, int start_v) {
 	while (!q.empty()) {
 		int now_v = q.front();
 		q.pop();
+<<<<<<< HEAD
 		
+=======
+
+>>>>>>> dca016cacaf980c44063ad3079e0a02f665da7a4
 		for (auto next_v : graph[now_v]) {
 			if (dist[next_v] > dist[now_v] + 1) {
 				q.push(next_v);
@@ -63,6 +67,10 @@ int solution(int n, vector<vector<int>> edge) {
 int main(void) {
 	int n = 6;
 	vector<vector<int>> edge = { {3, 6}, {4, 3}, {3, 2}, {1, 3}, {1, 2}, {2, 4}, {5, 2} };
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> dca016cacaf980c44063ad3079e0a02f665da7a4
 	cout << solution(n, edge) << endl;
 }

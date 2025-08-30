@@ -29,7 +29,11 @@ void dfs(string now_city, vector<vector<string>> tickets, vector<string>& answer
             dfs(dest, tickets, answer, used);
             if (finished)
                 return;
+<<<<<<< HEAD
             
+=======
+
+>>>>>>> dca016cacaf980c44063ad3079e0a02f665da7a4
             used[i] = false;
             used_cnt--;
             answer.pop_back();
@@ -41,7 +45,11 @@ vector<string> solution(vector<vector<string>> tickets) {
     vector<string> answer;
     answer.push_back("ICN");
     sort(tickets.begin(), tickets.end());
+<<<<<<< HEAD
     vector<bool> used(tickets.size(), false);  
+=======
+    vector<bool> used(tickets.size(), false);
+>>>>>>> dca016cacaf980c44063ad3079e0a02f665da7a4
 
     dfs("ICN", tickets, answer, used);
 
