@@ -183,6 +183,7 @@
     <ClCompile Include="프로그래머스\LV3\입국심사.cpp" />
     <ClCompile Include="백준\플래티넘\소수 쌍.cpp" />
     <ClCompile Include="백준\실버\구간 합 구하기 5.cpp" />
+    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
