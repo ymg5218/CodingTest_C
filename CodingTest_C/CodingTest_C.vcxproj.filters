@@ -184,6 +184,12 @@
     <ClCompile Include="백준\플래티넘\소수 쌍.cpp" />
     <ClCompile Include="백준\실버\구간 합 구하기 5.cpp" />
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="백준\플래티넘\반복 패턴.cpp" />
+    <ClCompile Include="백준\골드\팀배분.cpp" />
+    <ClCompile Include="백준\골드\특정한 최단 경로.cpp" />
+    <ClCompile Include="백준\골드\INHA SUIT.cpp" />
+    <ClCompile Include="백준\브론즈\1934 최소공배수.cpp" />
+    <ClCompile Include="백준\플래티넘\우정은 BFS처럼 사랑은 DFS처럼.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
