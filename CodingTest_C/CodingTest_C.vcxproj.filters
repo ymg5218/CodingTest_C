@@ -190,6 +190,7 @@
     <ClCompile Include="백준\골드\INHA SUIT.cpp" />
     <ClCompile Include="백준\브론즈\1934 최소공배수.cpp" />
     <ClCompile Include="백준\플래티넘\우정은 BFS처럼 사랑은 DFS처럼.cpp" />
+    <ClCompile Include="백준\실버\K번째 수.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
