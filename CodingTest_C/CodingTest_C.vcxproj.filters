@@ -193,6 +193,9 @@
     <ClCompile Include="백준\실버\팩토리얼 0의 개수.cpp" />
     <ClCompile Include="백준\골드\선 긋기.cpp" />
     <ClCompile Include="백준\골드\흙길 보수하기.cpp" />
+    <ClCompile Include="백준\실버\최소공배수.cpp" />
+    <ClCompile Include="백준\골드\철로.cpp" />
+    <ClCompile Include="백준\골드\20440.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
