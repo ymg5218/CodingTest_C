@@ -194,7 +194,25 @@
     <ClCompile Include="프로그래머스\LV3\순위.cpp" />
     <ClCompile Include="프로그래머스\LV3\여행경로.cpp" />
     <ClCompile Include="프로그래머스\LV3\입국심사.cpp" />
+<<<<<<< HEAD
+    <ClCompile Include="백준\플래티넘\소수 쌍.cpp" />
+    <ClCompile Include="백준\실버\구간 합 구하기 5.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="백준\플래티넘\반복 패턴.cpp" />
+    <ClCompile Include="백준\골드\팀배분.cpp" />
+    <ClCompile Include="백준\골드\특정한 최단 경로.cpp" />
+    <ClCompile Include="백준\골드\INHA SUIT.cpp" />
+    <ClCompile Include="백준\브론즈\1934 최소공배수.cpp" />
+    <ClCompile Include="백준\플래티넘\우정은 BFS처럼 사랑은 DFS처럼.cpp" />
+    <ClCompile Include="백준\실버\팩토리얼 0의 개수.cpp" />
+    <ClCompile Include="백준\골드\선 긋기.cpp" />
+    <ClCompile Include="백준\골드\흙길 보수하기.cpp" />
+    <ClCompile Include="백준\실버\최소공배수.cpp" />
+    <ClCompile Include="백준\골드\철로.cpp" />
+    <ClCompile Include="백준\골드\20440.cpp" />
+=======
     <ClCompile Include="백준\브론즈\준영이의 등급.cpp" />
+>>>>>>> 1877dc3cd9bad108bab91c52f5f5d79192878f6d
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
