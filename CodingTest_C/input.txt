@@ -1,2 +1,10 @@
-255 5
-30 37 50 7 35
+4 5
+hightech 10:00 10:50
+leehogwan 11:00 11:50
+ohogwan 11:50 13:00
+jeongsuck 13:00 14:00
+hightech leehogwan 00:03
+hightech jeongsuck 00:12
+hightech ohogwan 00:03
+leehogwan jeongsuck 00:10
+ohogwan jeongsuck 00:03
