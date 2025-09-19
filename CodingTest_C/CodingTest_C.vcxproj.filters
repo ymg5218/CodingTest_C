@@ -2,6 +2,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="test.cpp" />
+    <ClCompile Include="백준\골드\20440.cpp" />
     <ClCompile Include="백준\골드\ACM Craft.cpp" />
     <ClCompile Include="백준\골드\A와 B.cpp" />
     <ClCompile Include="백준\골드\CCW.cpp" />
@@ -62,6 +63,7 @@
     <ClCompile Include="백준\골드\중량제한.cpp" />
     <ClCompile Include="백준\골드\중앙값 구하기.cpp" />
     <ClCompile Include="백준\골드\집합의 표현.cpp" />
+    <ClCompile Include="백준\골드\철로.cpp" />
     <ClCompile Include="백준\골드\최소 스패닝 트리.cpp" />
     <ClCompile Include="백준\골드\이분 그래프.cpp" />
     <ClCompile Include="백준\골드\최솟값.cpp" />
@@ -108,6 +110,7 @@
     <ClCompile Include="백준\브론즈\일곱 난쟁이.cpp" />
     <ClCompile Include="백준\브론즈\전자레인지.cpp" />
     <ClCompile Include="백준\브론즈\점수계산.cpp" />
+    <ClCompile Include="백준\브론즈\준영이의 등급.cpp" />
     <ClCompile Include="백준\브론즈\최대공약수와 최소공배수.cpp" />
     <ClCompile Include="백준\브론즈\최소공배수.cpp" />
     <ClCompile Include="백준\브론즈\크냐.cpp" />
@@ -156,6 +159,7 @@
     <ClCompile Include="백준\실버\재귀함수가 뭔가요.cpp" />
     <ClCompile Include="백준\실버\주유소.cpp" />
     <ClCompile Include="백준\실버\최대 힙.cpp" />
+    <ClCompile Include="백준\실버\최소공배수.cpp" />
     <ClCompile Include="백준\실버\카드 1.cpp" />
     <ClCompile Include="백준\실버\쿠키런.cpp" />
     <ClCompile Include="백준\실버\큐 2.cpp" />
@@ -194,25 +198,12 @@
     <ClCompile Include="프로그래머스\LV3\순위.cpp" />
     <ClCompile Include="프로그래머스\LV3\여행경로.cpp" />
     <ClCompile Include="프로그래머스\LV3\입국심사.cpp" />
-<<<<<<< HEAD
-    <ClCompile Include="백준\플래티넘\소수 쌍.cpp" />
-    <ClCompile Include="백준\실버\구간 합 구하기 5.cpp" />
-    <ClCompile Include="test.cpp" />
-    <ClCompile Include="백준\플래티넘\반복 패턴.cpp" />
-    <ClCompile Include="백준\골드\팀배분.cpp" />
-    <ClCompile Include="백준\골드\특정한 최단 경로.cpp" />
-    <ClCompile Include="백준\골드\INHA SUIT.cpp" />
-    <ClCompile Include="백준\브론즈\1934 최소공배수.cpp" />
-    <ClCompile Include="백준\플래티넘\우정은 BFS처럼 사랑은 DFS처럼.cpp" />
-    <ClCompile Include="백준\실버\팩토리얼 0의 개수.cpp" />
-    <ClCompile Include="백준\골드\선 긋기.cpp" />
-    <ClCompile Include="백준\골드\흙길 보수하기.cpp" />
-    <ClCompile Include="백준\실버\최소공배수.cpp" />
-    <ClCompile Include="백준\골드\철로.cpp" />
-    <ClCompile Include="백준\골드\20440.cpp" />
-=======
-    <ClCompile Include="백준\브론즈\준영이의 등급.cpp" />
->>>>>>> 1877dc3cd9bad108bab91c52f5f5d79192878f6d
+    <ClCompile Include="백준\골드\Coins.cpp" />
+    <ClCompile Include="백준\실버\골드바흐의 추측.cpp" />
+    <ClCompile Include="백준\플래티넘\신입생 청원이.cpp" />
+    <ClCompile Include="백준\실버\접미사 배열.cpp" />
+    <ClCompile Include="백준\플래티넘\아름다운 만영로_100.cpp" />
+    <ClCompile Include="프로그래머스\LV3\디스크 컨트롤러.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
