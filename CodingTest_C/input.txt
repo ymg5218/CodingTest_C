@@ -1,42 +1,5 @@
-<<<<<<< HEAD
-10
-1 2 a
-2 3 b
-3 4 a
-4 5 b
-5 6 a
-4 7 a
-7 8 b
-7 9 b
-9 10 a
-ab
-=======
-<<<<<<< HEAD
-4 5
-hightech 10:00 10:50
-leehogwan 11:00 11:50
-ohogwan 11:50 13:00
-jeongsuck 13:00 14:00
-hightech leehogwan 00:03
-hightech jeongsuck 00:12
-hightech ohogwan 00:03
-leehogwan jeongsuck 00:10
-ohogwan jeongsuck 00:03
-=======
-<<<<<<< HEAD
-8
-5 40
-35 25
-10 20
-10 25
-30 50
-50 60
-30 25
-80 100
-30
-=======
-255 5
-30 37 50 7 35
->>>>>>> 1877dc3cd9bad108bab91c52f5f5d79192878f6d
->>>>>>> 2a95743558c463453fa74d69671a3b1e96c95b03
->>>>>>> c16d29cd604d53a6f5afd334f655077ba0670262
+4
+0 0
+10 10
+0 10
+10 0
