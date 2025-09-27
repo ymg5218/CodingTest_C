@@ -203,7 +203,9 @@
     <ClCompile Include="백준\플래티넘\신입생 청원이.cpp" />
     <ClCompile Include="백준\실버\접미사 배열.cpp" />
     <ClCompile Include="백준\플래티넘\아름다운 만영로_100.cpp" />
-    <ClCompile Include="프로그래머스\LV3\디스크 컨트롤러.cpp" />
+    <ClCompile Include="백준\플래티넘\열혈강호.cpp" />
+    <ClCompile Include="백준\플래티넘\문자열 집합 판별.cpp" />
+    <ClCompile Include="백준\플래티넘\가장 가까운 두 점.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
