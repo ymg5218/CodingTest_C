@@ -6,7 +6,7 @@
 #include <set>
 #include <cmath>
 #define INF 1e9
-#define endl "\n"\
+#define endl "\n"
 
 using namespace std;
 

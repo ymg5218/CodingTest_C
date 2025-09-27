@@ -206,6 +206,9 @@
     <ClCompile Include="백준\플래티넘\열혈강호.cpp" />
     <ClCompile Include="백준\플래티넘\문자열 집합 판별.cpp" />
     <ClCompile Include="백준\플래티넘\가장 가까운 두 점.cpp" />
+    <ClCompile Include="프로그래머스\LV3\네트워크.cpp" />
+    <ClCompile Include="프로그래머스\LV3\등산코스 정하기.cpp" />
+    <ClCompile Include="백준\플래티넘\축사 배정.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
