@@ -209,6 +209,7 @@
     <ClCompile Include="프로그래머스\LV3\네트워크.cpp" />
     <ClCompile Include="프로그래머스\LV3\등산코스 정하기.cpp" />
     <ClCompile Include="백준\플래티넘\축사 배정.cpp" />
+    <ClCompile Include="백준\플래티넘\노트북의 주인을 찾아서.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
