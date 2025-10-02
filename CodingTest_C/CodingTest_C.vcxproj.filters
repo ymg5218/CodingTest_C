@@ -212,6 +212,8 @@
     <ClCompile Include="백준\플래티넘\노트북의 주인을 찾아서.cpp" />
     <ClCompile Include="백준\플래티넘\열혈강호 2.cpp" />
     <ClCompile Include="백준\플래티넘\트리의 색깔과 쿼리.cpp" />
+    <ClCompile Include="백준\골드\오등큰수.cpp" />
+    <ClCompile Include="백준\플래티넘\거의 최단경로.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
