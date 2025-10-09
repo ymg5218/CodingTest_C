@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="W6P1.cpp" />
     <ClCompile Include="백준\골드\20440.cpp" />
     <ClCompile Include="백준\골드\ACM Craft.cpp" />
     <ClCompile Include="백준\골드\A와 B.cpp" />
@@ -214,6 +214,8 @@
     <ClCompile Include="백준\플래티넘\트리의 색깔과 쿼리.cpp" />
     <ClCompile Include="백준\골드\오등큰수.cpp" />
     <ClCompile Include="백준\플래티넘\거의 최단경로.cpp" />
+    <ClCompile Include="백준\실버\곱셈.cpp" />
+    <ClCompile Include="백준\골드\행성 연결.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
