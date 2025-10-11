@@ -216,6 +216,7 @@
     <ClCompile Include="백준\플래티넘\거의 최단경로.cpp" />
     <ClCompile Include="백준\실버\곱셈.cpp" />
     <ClCompile Include="백준\골드\행성 연결.cpp" />
+    <ClCompile Include="백준\실버\차이를 최대로.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
