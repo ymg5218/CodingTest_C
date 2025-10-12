@@ -217,6 +217,7 @@
     <ClCompile Include="백준\실버\곱셈.cpp" />
     <ClCompile Include="백준\골드\행성 연결.cpp" />
     <ClCompile Include="백준\실버\차이를 최대로.cpp" />
+    <ClCompile Include="백준\골드\선분과 점.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
