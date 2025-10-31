@@ -220,6 +220,8 @@
     <ClCompile Include="백준\골드\선분과 점.cpp" />
     <ClCompile Include="백준\실버\국영수.cpp" />
     <ClCompile Include="백준\실버\안정적인 문자열.cpp" />
+    <ClCompile Include="백준\실버\배열 합치기.cpp" />
+    <ClCompile Include="백준\플래티넘\바이러스.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
