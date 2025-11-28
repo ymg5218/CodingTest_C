@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="W6P1.cpp" />
     <ClCompile Include="백준\골드\20440.cpp" />
     <ClCompile Include="백준\골드\ACM Craft.cpp" />
     <ClCompile Include="백준\골드\A와 B.cpp" />
@@ -222,6 +221,26 @@
     <ClCompile Include="백준\실버\안정적인 문자열.cpp" />
     <ClCompile Include="백준\실버\배열 합치기.cpp" />
     <ClCompile Include="백준\플래티넘\바이러스.cpp" />
+    <ClCompile Include="백준\골드\사회망 서비스.cpp" />
+    <ClCompile Include="백준\실버\베스트셀러.cpp" />
+    <ClCompile Include="백준\골드\Candies.cpp" />
+    <ClCompile Include="백준\골드\Non-negative Partial Sums.cpp" />
+    <ClCompile Include="백준\골드\회의실 배정_30827.cpp" />
+    <ClCompile Include="백준\골드\포스택.cpp" />
+    <ClCompile Include="백준\브론즈\카드 게임.cpp" />
+    <ClCompile Include="백준\실버\분수 합.cpp" />
+    <ClCompile Include="백준\실버\N번째 큰 수.cpp" />
+    <ClCompile Include="백준\골드\구슬 탈출.cpp" />
+    <ClCompile Include="백준\플래티넘\정점들의 거리.cpp" />
+    <ClCompile Include="백준\플래티넘\한동이는 영업사원.cpp" />
+    <ClCompile Include="백준\브론즈\대회_A번 추석은 언제나 좋아.cpp" />
+    <ClCompile Include="백준\골드\서로소.cpp" />
+    <ClCompile Include="백준\브론즈\가위 바위 보.cpp" />
+    <ClCompile Include="백준\실버\재홍의 사다리.cpp" />
+    <ClCompile Include="백준\플래티넘\문자열 장식.cpp" />
+    <ClCompile Include="백준\플래티넘\행성 터널.cpp" />
+    <ClCompile Include="백준\플래티넘\K번째 최단경로 찾기.cpp" />
+    <ClCompile Include="백준\실버\스타트링크.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
