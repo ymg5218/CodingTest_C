@@ -1,4 +1,4 @@
-// 13459
+// 13460
 
 #include <iostream>
 #include <vector>
@@ -13,7 +13,7 @@ vector<vector<char>> board;
 int R_row, R_col, B_row, B_col;
 int end_row, end_col;
 
-struct NowState {
+struct NowState{
 	int R_row, R_col, B_row, B_col;
 	int cnt;
 };
@@ -251,7 +251,7 @@ void bfs() {
 		// 위로
 		next = goUp(now);
 		if (next.cnt == 0) {
-			cout << 1 << endl;
+			cout << now.cnt + 1 << endl;
 			return;
 		}
 		if (next.cnt != -1) {
@@ -261,17 +261,17 @@ void bfs() {
 		// 아래로
 		next = goDown(now);
 		if (next.cnt == 0) {
-			cout << 1 << endl;
+			cout << now.cnt + 1 << endl;
 			return;
 		}
-		if (next.cnt != -1) {
+		if(next.cnt != -1) {
 			q.push(next);
 		}
 
 		// 왼쪽으로
 		next = goLeft(now);
 		if (next.cnt == 0) {
-			cout << 1 << endl;
+			cout << now.cnt + 1 << endl;
 			return;
 		}
 		if (next.cnt != -1) {
@@ -281,7 +281,7 @@ void bfs() {
 		// 오른쪽으로
 		next = goRight(now);
 		if (next.cnt == 0) {
-			cout << 1 << endl;
+			cout << now.cnt + 1 << endl;
 			return;
 		}
 		if (next.cnt != -1) {
@@ -289,7 +289,7 @@ void bfs() {
 		}
 	}
 
-	cout << 0 << endl;
+	cout << -1 << endl;
 	return;
 }
 
