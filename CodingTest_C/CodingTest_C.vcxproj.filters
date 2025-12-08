@@ -241,9 +241,14 @@
     <ClCompile Include="백준\플래티넘\행성 터널.cpp" />
     <ClCompile Include="백준\플래티넘\K번째 최단경로 찾기.cpp" />
     <ClCompile Include="백준\실버\스타트링크.cpp" />
+<<<<<<< HEAD
     <ClCompile Include="백준\골드\구슬 탈출.cpp" />
     <ClCompile Include="백준\플래티넘\Diskurs.cpp" />
     <ClCompile Include="백준\플래티넘\이동.cpp" />
+=======
+    <ClCompile Include="백준\실버\증가 배열 만들기.cpp" />
+    <ClCompile Include="백준\브론즈\첼시를 도와줘!.cpp" />
+>>>>>>> e9ae4e540a983090ea368fbec37bdeb885b240cb
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
