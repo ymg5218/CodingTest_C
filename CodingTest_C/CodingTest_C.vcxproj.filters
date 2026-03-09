@@ -291,6 +291,13 @@
     <ClCompile Include="백준\골드\귀찮은 해강이.cpp" />
     <ClCompile Include="백준\골드\사이클 게임.cpp" />
     <ClCompile Include="백준\골드\과제.cpp" />
+    <ClCompile Include="백준\브론즈\Tawla.cpp" />
+    <ClCompile Include="백준\브론즈\나의 학점은.cpp" />
+    <ClCompile Include="백준\브론즈\17446.cpp" />
+    <ClCompile Include="백준\브론즈\Black Friday.cpp" />
+    <ClCompile Include="백준\실버\젓가락.cpp" />
+    <ClCompile Include="백준\실버\근무 지옥에 빠진 푸앙이 Large.cpp" />
+    <ClCompile Include="백준\실버\서로소 평균.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt" />
